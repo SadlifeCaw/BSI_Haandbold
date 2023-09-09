@@ -615,8 +615,17 @@ footer {
 }
 
 .column {
-    flex: 50%;
     padding: 20px;
+}
+
+/* Style the left column */
+.left-column {
+    flex: 70%;
+}
+
+/* Style the right column */
+.right-column {
+    flex: 30%;
 }
 
 .image-container {

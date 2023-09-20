@@ -343,8 +343,6 @@ a {
     ---------------------------------------------------*/
 .team-member {
     margin-bottom: 15px;
-    min-width: 230px;
-    min-height: 365px;
 }
 
     .team-member .member-img img {
@@ -380,7 +378,7 @@ a {
 
 .team-member {
     background: #9e0202;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 /* ------- */
 

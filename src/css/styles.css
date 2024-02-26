@@ -248,7 +248,7 @@ a {
     padding: 0px;
     box-shadow: 0px 0px 1px rgba(0,0,0,0.4);
     max-height: 600px;
-    height: 600px;
+    height: 100%;
     background: url("../images/Background.jpg") no-repeat;
     background-size: 100% 100%;
     background-size: cover;
@@ -261,7 +261,7 @@ a {
     background-image: url(../images/bg_line.png);
     background-repeat: repeat;
     max-height: 600px;
-    height: 600px;
+    height: 100%;
     z-index: 1;
 }
 
@@ -652,9 +652,6 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .banner-container {
-        background-size: cover;
-    }
 
     .team-member .member-img img {
         max-width: 100%;
@@ -662,6 +659,7 @@ footer {
 
     .banner-container {
         width: 100%;
+        background-size: cover;
         max-height: 432px;
     }
 
@@ -719,9 +717,9 @@ footer {
     .da-slider {
         width: 100%;
         min-width: initial;
-        height: 205px;
+        height: 230px;
         position: relative;
-        margin: 0 auto;
+        margin: 4% auto;
     }
 
     .da-slide h2 {
@@ -732,9 +730,9 @@ footer {
     }
 
     .da-slide p {
-        width: 65%;
+        width: 80%;
         top: 65px;
-        height: 50px;
+        height: 100%;
     }
 
     .page-section h1 {
@@ -769,7 +767,7 @@ footer {
     .da-slider {
         width: 100%;
         min-width: initial;
-        height: 145px;
+        height: 160px;
         position: relative;
         margin: 0 auto;
     }
@@ -781,8 +779,14 @@ footer {
         top: 10px;
     }
 
+    .da-slide p {
+        font-size: 10px;
+        width: 80%;
+        height: 100%;
+    }
+
     .da-dots {
-        bottom: 2px;
+        bottom: 0px;
     }
 
     .grid .text-content {
